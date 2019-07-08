@@ -17,3 +17,12 @@ console.assert(pq.peek() === null)
 pq.clear()
 
 console.assert(pq.dequeue() === null)
+
+pq.queue(51)
+pq.queue(52)
+pq.queue(53)
+pq.queue(54, 2)
+console.assert(pq.dequeue() === 54)
+console.assert(pq.dequeue() === 51)
+console.assert(pq.dequeue() === 52)
+console.assert(pq.dequeue() === 53)
