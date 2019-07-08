@@ -1,5 +1,7 @@
 # PriorityQueue
 
+[![Build Status](https://travis-ci.org/AjayPoshak/PriorityQueue.svg?branch=master)](https://travis-ci.org/AjayPoshak/PriorityQueue)
+
 Array based Priority Queue implemented in JS.
 
 Highest Priority - 1, Lowest Priority - 10
